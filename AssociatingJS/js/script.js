@@ -1,7 +1,7 @@
-//Arrays
+//Basic experession
 
-var zakiHilmi = ["jack","rainbow","sothren"];
+var a=2;
+var b;
+b=a+4
 
-
-zakiHilmi [1]="sothren";
-console.log (zakiHilmi[1]);
+console.log(b);
