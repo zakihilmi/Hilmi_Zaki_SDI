@@ -15,6 +15,9 @@ console.log(areaofHeightandLength);
 var areaofWidthandlength = width * length; // This equation calculates the area of width and length
 console.log(areaofWidthandlength);
 
+var totalSurfaceArea = 2*(areaofHeightandWidth) + 2*(areaofHeightandLength) + 2*(areaofWidthandlength); // We figure out our total surface area by this equation
+console.log(totalSurfaceArea);
+
 
 
 
