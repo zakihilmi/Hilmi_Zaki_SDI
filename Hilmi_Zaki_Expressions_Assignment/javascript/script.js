@@ -7,7 +7,17 @@ var width = prompt("please enter the width value");   // we declared the width
 var length = prompt("please enter the length");     //we declared the length
 
 var areaofHeightandWidth= height * width;// we calculate the area of height and width by setting up this equation
-console.log(areaofHeightandWidth);
+console.log(areaofHeightandWidth); // we save our value in console.log
+
+var areaofHeightandLength= height * length ; // we calculate the area of height and length by setting up this equation
+console.log(areaofHeightandLength);
+
+var areaofWidthandlength = width * length; // This equation calculates the area of width and length
+console.log(areaofWidthandlength);
+
+
+
+
 
 
 
