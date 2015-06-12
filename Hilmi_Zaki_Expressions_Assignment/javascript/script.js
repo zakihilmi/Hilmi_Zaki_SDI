@@ -1,5 +1,13 @@
-// We are calculating total area and volume of a box based on constraints given by users
+// We are calculating total area and volume of a box based on constraints given by the user
 
 var height = prompt("we are calculating the area.\n please enter the height value");//we're declaring the height variable and giving a prompt for the value
 
-var width = prompt("please enter the width value");
+var width = prompt("please enter the width value");   // we declared the width
+
+var length = prompt("please enter the length");     //we declared the length
+
+var areaofHeightandWidth= height * width;// we calculate the area of height and width by setting up this equation
+console.log(areaofHeightandWidth);
+
+
+
