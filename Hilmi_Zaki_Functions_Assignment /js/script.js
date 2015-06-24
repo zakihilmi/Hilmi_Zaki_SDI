@@ -13,6 +13,11 @@ var vol=calcVolum(π,r,h);//setups a variable for our function
 }
 console.log(vol);
 
-var lateralSurface=function (π,r,h){// the second function will be anonymous and used to for lateral surface area calculation
+var lateralSurface = function(r,h){// the second function will be anonymous and used to for lateral surface area calculation
 
+    var area=2*π * r * h;
+    return area;
 }
+var a = lateralSurface(r,h);
+console.log(a);// a temporary storage for lateral surface area calculation
+
