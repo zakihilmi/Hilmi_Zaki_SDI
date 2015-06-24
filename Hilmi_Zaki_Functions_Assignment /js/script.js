@@ -21,3 +21,15 @@ var lateralSurface = function(r,h){// the second function will be anonymous and 
 var a = lateralSurface(r,h);
 console.log(a);// a temporary storage for lateral surface area calculation
 
+var topandBottom =function topCalc(π,r){//this function is to calculate top and bottom of cylinder
+    var t= π * (r*r); //a formula to calculate the top and bottom of cylinder
+    return t
+
+
+}
+console.log(topandBottom(π,r));
+
+
+//while (π,r,h){
+
+}
